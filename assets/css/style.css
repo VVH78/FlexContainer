@@ -7,13 +7,20 @@
 
 .innerBlock {
   border: 5px solid red;padding: 10px;
-  font-family: 2rem;
+  font-size: 2rem;
   }
 
 .flexParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
   }
 
-  .flexChild {
-    
+.flexChild {
+
   }
+  .child3 {
+    margin-left: auto;
+  }
+  
