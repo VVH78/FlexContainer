@@ -1,26 +1,32 @@
 * {
   box-sizing: border-box;
 }
+
 .outerBlock {
   border: 5px solid blue;
+  height: 500px;
 }
 
 .innerBlock {
-  border: 5px solid red;padding: 10px;
+  border: 5px solid red;
+  padding: 10px;
   font-size: 2rem;
   }
 
 .flexParent {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-
+  justify-content: flex-start; /* main-axis */
+  align-items: flex-start; /*across-axis*/
+  gap: 20px;
+  flex-wrap: wrap-reverse;
+  flex-flow: ;
   }
 
 .flexChild {
 
   }
   .child3 {
-    margin-left: auto;
+    /* margin-left: auto; */
   }
   
